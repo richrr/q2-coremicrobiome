@@ -6,8 +6,8 @@ This plugin works with qza files from QIIME 2.
 
 
 Sample commands:
-qiime coremicrobiome full-pipeline --help
+> qiime coremicrobiome full-pipeline --help
 
-qiime coremicrobiome full-pipeline --i-table /path/to/otu_table_file/table.qza --p-factor Person --p-group Good --p-outputfile coremic.q2 --m-groupfile-file /path/to/meta_data_file/sampleSheet.txt --p-make-relative --o-visualization output.qzv
+> qiime coremicrobiome full-pipeline --i-table /path/to/otu_table_file/table.qza --p-factor Person --p-group Good --p-outputfile coremic.q2 --m-groupfile-file /path/to/meta_data_file/sampleSheet.txt --p-make-relative --o-visualization output.qzv
 
 * creates "output.qzv" in current directory.
