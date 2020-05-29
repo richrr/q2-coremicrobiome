@@ -1,6 +1,5 @@
 # q2-coremicrobiome
-Qiime2 plugin of COREMIC: CORE MICrobiome [https://doi.org/10.7717/peerj.4395]
-This plugin works with qza files from QIIME 2.
+Qiime2 plugin of COREMIC: CORE MICrobiome [https://doi.org/10.7717/peerj.4395]. This plugin works with qza files from QIIME 2.
 
 * For Biom v1 OTU tables from QIIME 1.x, please use the web-tool: http://coremic2.appspot.com/
 
