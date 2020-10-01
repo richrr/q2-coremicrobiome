@@ -21,15 +21,25 @@ Sample data available at:
 
 To get sample data and test the qiime plugin, in Unix or Mac terminal:
 > mkdir dataset1
+
 > cd dataset1
+
 > wget https://raw.githubusercontent.com/richrr/sample_data/master/q2-coremicrobiome/dataset1/map-file.txt
+
 > wget -O table.w.taxaname.qza https://github.com/richrr/sample_data/blob/master/q2-coremicrobiome/dataset1/table.w.taxaname.qza?raw=true
+
 > qiime coremicrobiome full-pipeline --i-table table.w.taxaname.qza --p-factor Plant --p-group Sw --p-outputfile coremic.q2 --m-groupfile-file map-file.txt --p-make-relative --o-visualization swg.qzv
+
 OR
+
 > mkdir dataset2
+
 > cd dataset2
+
 > wget https://raw.githubusercontent.com/richrr/sample_data/master/q2-coremicrobiome/dataset2/map-file.txt
+
 > wget -O table.qza https://github.com/richrr/sample_data/blob/master/q2-coremicrobiome/dataset2/table.qza?raw=true
+
 > qiime coremicrobiome full-pipeline --i-table table.qza --p-factor SampleType --p-group Leaf --p-outputfile out.Leaf. --m-groupfile-file map-file.txt --p-make-relative --p-quantile-normalize --o-visualization output.Leaf.qzv
 
 
